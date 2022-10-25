@@ -226,6 +226,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 115px;
 }
 .management__wrapper{
     width: 450px;
@@ -262,9 +263,6 @@ main {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
-    
-    
     color: var(--text-color);
 }
 .support__title{
@@ -332,7 +330,6 @@ main {
 font-size: 16px;
 line-height: 24px;
 padding: 12px 0px;
-/* identical to box height */
 
 
 color: var(--text-color)
@@ -342,7 +339,6 @@ color: var(--text-color)
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     
     
     color: var(--text-color)
@@ -351,8 +347,6 @@ color: var(--text-color)
     font-weight: 700;
     font-size: 32px;
     line-height: 48px;
-    /* identical to box height */
-    
-    
     color: var(--text-color)
 }
+
