@@ -168,6 +168,7 @@ main {
 /* product section start */
 .product{
     margin-top: 115px;
+    margin-bottom: 153px;
 }
 .title__width{
     display: block;
@@ -211,8 +212,10 @@ main {
     color: var(--text-color)
 }
 .divspan{
-    display: block;
-    margin: 30px auto;
+    width: 100%;
+    max-width: 175px;
+    display:block;
+    margin: 20px auto;
 }
 .product__span{
     display: inline-block;
@@ -249,19 +252,37 @@ color: #22343D;
 @media only screen and (max-width:576px) {
     .product__inner{
         display: block;
+        text-align: center;
+        margin: 0 auto;
         width: 411px;
     }
-}
+    .divspan{
+        width: 175px;
+        margin: 30px auto;
+    }
+} 
 
 /* Management section start */
+.management{
+    padding-top: 150px;
+}
 .management__inner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 115px;
+    position: relative;
+}
+.management__inner::before{
+    position: absolute;
+    background-image: url("../images/amico.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    width: 540px;
+    height: 474px;
+    right: 0;
+    top: 0;
+    content: '';
 }
 .management__wrapper{
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
 }
 .management__strong{
     font-weight: 600;
@@ -282,14 +303,38 @@ color: #22343D;
     color: var(--text-color);
     padding: 25px 0px;
 }
+@media only screen and (max-width:576px) {
+    .management__inner{
+        padding: 360px 0px 120px;
+        background-size: 350px 305px;
+        background-position: top center;
+    }
+    .management__wrapper{
+        padding-top: 150px;
+    }
+    
+}
+/* SUPPORT SECTION STARTED */
 .support__inner{
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 145px;
+    flex-direction: row-reverse;
+    margin-top :150px;
+}
+.support__inner::before{
+    position: absolute;
+    background-image: url("../images/support_img.png");
+    width: 543px;
+    height: 500px;
+    left: 0px;
+    top: 0;
+    background-repeat: no-repeat;
+    content: '';
 }
 .support__wrapper{
-    width: 420px;
+    width: 100%;
+    max-width: 420px;
 }
 .support__strong{
     font-weight: 600;
@@ -333,7 +378,6 @@ color: #22343D;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-    
 }
 .support__item{
     padding: 15px 0px;
@@ -345,6 +389,35 @@ color: #22343D;
     line-height: 26px;
     color: var(--text-color)
 }
+
+@media only screen and (max-width:576px) {
+    .support__inner{
+        background-size: 350px 320px;
+        background-position: top center;
+        padding-top: 550px;
+        margin-top: 0px;
+    }
+    
+}
+@media only screen and (max-width:576px) {
+    .support__list{
+        position: relative;
+        margin-left: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .Collaborative__inner{
     display: flex;
