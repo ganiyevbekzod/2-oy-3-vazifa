@@ -261,8 +261,8 @@ main {
         margin: 0 auto;
     }
     .divspan{
-        width: 175px;
-        margin: 30px auto;
+        max-width: 175px;
+        margin: 0px auto;
     }
 } 
 
@@ -303,14 +303,15 @@ main {
 @media only screen and (max-width:576px) {
     .management__images{
         display: block;
-        margin: 0 auto;
         width: 100%;
         max-width: 350px;
         height: 305px;
     }
     .management__wrapper{
+        position: relative;
+        left: -60px;
+        padding-top: 50px;
         max-width: 334px;
-        margin: 0 auto;
     }
     
 }
@@ -383,7 +384,7 @@ main {
     .support__img{
         position: absolute;
         top: -30px;
-        left:80px;
+        left:20px;
         max-width: 265px;
         height: 308px;
     }
