@@ -256,6 +256,10 @@ main {
         margin: 0 auto;
         width: 411px;
     }
+    .product__wrapper{
+        display: block;
+        margin: 0 auto;
+    }
     .divspan{
         width: 175px;
         margin: 30px auto;
@@ -306,6 +310,7 @@ main {
     }
     .management__wrapper{
         max-width: 334px;
+        margin: 0 auto;
     }
     
 }
@@ -378,6 +383,7 @@ main {
     .support__img{
         position: absolute;
         top: -30px;
+        left:80px;
         max-width: 265px;
         height: 308px;
     }
@@ -389,6 +395,7 @@ main {
 @media only screen and (max-width:576px) {
     .support__wrapper{
         padding-top: 300px;
+        margin: 0 auto;
     }
     .support__item::before{
         left:0px;
@@ -409,6 +416,7 @@ main {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-top: 100px;
 }
 .collaborative_img{
@@ -439,13 +447,15 @@ main {
 }
 @media only screen and (max-width:576px) {
     .collaborative_img{
-        margin: 0px;
         position: absolute;
+        margin: 0px;
+        left: 10px;
         top: 0;
         max-width:290px ;
         height: 291px;
     }
     .Collaborative__wrapper{
+        margin: 0 auto;
         padding-top: 350px;
     }  
 }
@@ -475,13 +485,15 @@ width: 348px;
 }
 @media only screen and (max-width:576px) {
     .strateg__content{
+        margin: 0 10px;
         width: 348px;
     }
     .strateg__list{
         flex-wrap: wrap;
     }
     .strateg__item{
-        text-align: center;
+        margin: 0 10px;
+    
     }
 }
 .strateg__list {
@@ -562,9 +574,11 @@ width: 348px;
 }
 @media only screen and (max-width:576px) {
     .price__list{
+        margin: 0 auto;
         flex-wrap: wrap;
     }
     .price__item{
+        
         margin-bottom: 30px;
     }
     
